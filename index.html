@@ -1,0 +1,895 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Florida Real Estate Places | Sarasota Real Estate &amp; Disney Vacation Homes</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&amp;family=Playfair+Display:ital,wght@0,600;0,700;1,600&amp;display=swap" rel="stylesheet">
+<!-- Font Awesome CDN for Icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+<!-- Tailwind CSS v3 with Plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              navy: '#0f2744',
+              blue: '#005b96',
+              teal: '#00a896',
+              cyan: '#0284c7',
+              sky: '#e0f2fe',
+              coral: '#f97316',
+              amber: '#f59e0b',
+              sand: '#fcfaf6',
+              warmgray: '#f3f4f6'
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            serif: ['"Playfair Display"', 'serif']
+          }
+        }
+      }
+    }
+  </script>
+<!-- BEGIN: Custom Style Rules -->
+<style data-purpose="custom-styling">
+    .glass-card {
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+    .glass-dark {
+      background: rgba(15, 39, 68, 0.88);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+    }
+    .subtle-shadow {
+      box-shadow: 0 10px 30px -5px rgba(0, 40, 80, 0.12), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    }
+    .text-shadow {
+      text-shadow: 0 2px 4px rgba(0,0,0,0.45);
+    }
+    .text-shadow-subtle {
+      text-shadow: 0 1px 2px rgba(0,0,0,0.25);
+    }
+  </style>
+<!-- END: Custom Style Rules -->
+</head>
+<body class="bg-brand-sand text-slate-800 font-sans antialiased selection:bg-brand-teal selection:text-white">
+<!-- BEGIN: TopHeader -->
+<header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-sky-100 transition-all duration-300">
+<!-- Top Utility Contact Strip -->
+<div class="bg-gradient-to-r from-brand-navy via-brand-blue to-brand-navy text-white text-xs md:text-sm py-2 px-4 border-b border-sky-900/30">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
+<div class="flex items-center space-x-6 flex-wrap justify-center">
+<a class="hover:text-brand-amber transition flex items-center gap-1.5 font-medium" href="tel:9412334646">
+<i class="fa-solid fa-phone text-xs text-brand-amber"></i>
+<span class="">Phone: 941-233-4646</span>
+</a>
+<span class="hidden sm:inline text-sky-400/40">|</span>
+<a class="hover:text-brand-amber transition flex items-center gap-1.5 font-medium" href="mailto:FREPHomes@gmail.com">
+<i class="fa-solid fa-envelope text-xs text-brand-amber"></i>
+<span class="">FREPHomes@gmail.com</span>
+</a>
+</div>
+<div class="flex items-center space-x-2 text-sky-100/90 text-xs tracking-wider"><i class="fa-solid fa-certificate text-brand-amber text-xs"></i><span class="">Tamara J. Beckel, Broker of Record • Over 30+ Years Florida Experience</span></div>
+</div>
+</div>
+<!-- Main Navigation Bar -->
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
+<div class="flex items-center justify-between gap-4">
+<!-- Desktop Navigation Links on a single streamlined row -->
+<nav class="hidden lg:flex items-center flex-wrap gap-x-5 gap-y-1 text-xs font-semibold tracking-wide uppercase text-slate-700">
+<a class="hover:text-brand-blue transition-colors py-1" href="#hero">Home</a>
+<a class="hover:text-brand-blue transition-colors py-1" href="#relocation-tours">Relocation Tours</a>
+<a class="hover:text-brand-blue transition-colors py-1" href="#coastal-living">Coastal Living</a>
+<a class="hover:text-brand-blue transition-colors py-1" href="#relocate-sarasota">Relocate To Sarasota</a>
+<a class="hover:text-brand-blue transition-colors py-1" href="#mls-search">MLS Listings</a>
+<a class="hover:text-brand-blue transition-colors py-1" href="#contact">Sell My Home</a>
+<a class="hover:text-brand-blue transition-colors py-1" href="#buyer-guides">Buy A Home</a>
+</nav>
+<!-- Header CTA Button -->
+<div class="flex items-center space-x-3 ml-auto">
+<a class="inline-flex items-center gap-1.5 bg-gradient-to-r from-brand-blue to-brand-teal text-white font-bold text-xs uppercase px-4 py-2 rounded-full shadow hover:shadow-lg hover:from-brand-navy hover:to-brand-blue transition-all transform hover:-translate-y-0.5 whitespace-nowrap" href="#contact">
+<i class="fa-solid fa-paper-plane text-xs"></i>
+<span class="">Get In Touch</span>
+</a>
+<!-- Mobile Menu Trigger -->
+<button aria-label="Open navigation menu" class="lg:hidden p-1.5 text-slate-700 hover:text-brand-blue text-xl focus:outline-none" id="mobileMenuBtn">
+<i class="fa-solid fa-bars"></i>
+</button>
+</div>
+</div>
+</div>
+<!-- Mobile Dropdown Navigation -->
+<div class="hidden lg:hidden bg-white border-t border-slate-200 px-6 py-4 space-y-3 shadow-lg" id="mobileMenu">
+<a class="block text-slate-700 hover:text-brand-blue font-medium py-1" href="#hero">Home</a>
+<a class="block text-slate-700 hover:text-brand-blue font-medium py-1" href="#relocation-tours">Relocation Tours</a>
+<a class="block text-slate-700 hover:text-brand-blue font-medium py-1" href="#coastal-living">Coastal Living</a>
+<a class="block text-slate-700 hover:text-brand-blue font-medium py-1" href="#relocate-sarasota">Relocate To Sarasota</a>
+<a class="block text-slate-700 hover:text-brand-blue font-medium py-1" href="#mls-search">MLS Listings</a>
+<a class="block text-slate-700 hover:text-brand-blue font-medium py-1" href="#contact">Sell My Home</a>
+<a class="block text-slate-700 hover:text-brand-blue font-medium py-1" href="#buyer-guides">Buy A Home</a>
+<a class="block text-center bg-brand-blue text-white rounded-lg py-2.5 font-bold" href="#contact">Contact Broker</a>
+</div>
+</header>
+<!-- END: TopHeader -->
+<main>
+<!-- BEGIN: HeroSection -->
+<section class="relative min-h-[640px] lg:min-h-[750px] flex items-center justify-center bg-brand-navy overflow-hidden" id="hero">
+<!-- Background Image with Overlay -->
+<img alt="Siesta Key Beach Sarasota Florida Sunset with Luxury Condos" class="absolute inset-0 w-full h-full object-cover object-center filter brightness-95" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1zDe51NDHS3NOxayOfiys2kpxfu7uAeGRg04yYtp4e4mTziIwfPkXNYZgevG0-ffVXIzgv7vck3lRvi9eDYiOcd8KCJS-gEuLSV64WnFXET5uN42PwxuaAzpt6LL6WRdWDg8fIWCtZ7J4-RT5zHGU7Sit3-9OQFYwsTZx-FEyqfDTUH_idwxgbT8a-3-JuaDkGIztWEKKS2vahr0HozAYQ3dNBe3UrAK-k7m4w_Jw">
+<div class="absolute inset-0 bg-gradient-to-t from-brand-navy/90 via-slate-900/40 to-black/30"></div>
+<!-- Hero Content Container -->
+<div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-20 lg:py-28">
+<span class="inline-block bg-white/20 backdrop-blur-md text-amber-200 uppercase tracking-widest text-xs sm:text-sm font-bold px-4 py-1.5 rounded-full border border-white/30 mb-6">
+<i class="fa-solid fa-umbrella-beach mr-1.5"></i> Siesta Key • Sarasota County • Disney Corridor
+        </span>
+<h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-white font-serif tracking-tight leading-tight text-shadow drop-shadow-md">
+          Sarasota Real Estate <span class="text-amber-300 font-light">&amp;</span><br class="hidden sm:inline"> Disney Vacation Homes
+        </h1>
+<p class="mt-6 text-xl sm:text-2xl lg:text-3xl text-sky-100 font-medium italic tracking-wide max-w-3xl mx-auto text-shadow">
+          Embrace The Florida Coastal Lifestyle and Live Where Others Vacation
+        </p>
+<!-- Dual CTA Buttons -->
+<div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
+<a class="w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-brand-coral to-amber-500 hover:from-amber-600 hover:to-brand-coral text-white font-extrabold rounded-full shadow-xl hover:shadow-2xl transition transform hover:-translate-y-1 flex items-center justify-center gap-2 uppercase tracking-wider text-sm" href="#buyer-guides">
+<i class="fa-solid fa-house-chimney text-base"></i>
+<span class="">Buying A Home In Florida</span>
+</a>
+<a class="w-full sm:w-auto px-8 py-4 bg-white hover:bg-sky-50 text-brand-blue font-extrabold rounded-full shadow-xl hover:shadow-2xl transition transform hover:-translate-y-1 flex items-center justify-center gap-2 uppercase tracking-wider text-sm border-2 border-brand-blue" href="#contact">
+<i class="fa-solid fa-tag text-base text-brand-teal"></i>
+<span class="">Sell My Florida Home Fast</span>
+</a>
+</div>
+</div>
+</section>
+<!-- END: HeroSection -->
+<!-- BEGIN: NarrativeIntroduction -->
+<section class="py-16 bg-white border-b border-slate-200 relative">
+<div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+<h2 class="text-2xl sm:text-4xl font-extrabold text-brand-navy tracking-tight uppercase">
+          From The Shores Of <span class="text-brand-coral underline decoration-amber-400 decoration-wavy">Siesta Key</span> To The Magic Of <span class="text-brand-blue font-serif">Disney</span>
+</h2>
+<div class="w-24 h-1 bg-gradient-to-r from-brand-coral via-brand-teal to-brand-blue mx-auto my-6 rounded-full"></div>
+<p class="text-base sm:text-lg text-slate-700 leading-relaxed font-normal text-justify sm:text-center max-w-4xl mx-auto">
+          This is coastal living at its finest, where sugar-sand beaches, sunset-lit waterways, and warm Gulf breezes shape the rhythm of everyday life. From the world-famous shores of Siesta Key to the doorstep of Disney, Florida Real Estate Places offers real estate services rooted in the coastal lifestyle that makes Sarasota one of the Gulf Coast's most sought-after destinations. Our decades of local knowledge cover established Sarasota neighborhoods, downtown condos near dining and the arts, private golf course retreats, luxury waterfront homes with boating access, and vacation homes minutes from Disney World, so we can match the right property to the life you want to live.
+        </p>
+<!-- Quick Highlight Badges -->
+<div class="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-4">
+<div class="p-4 rounded-xl bg-sky-50/70 border border-sky-100 flex flex-col items-center">
+<i class="fa-solid fa-water text-brand-teal text-2xl mb-2"></i>
+<span class="font-bold text-slate-800 text-sm">Sugar Sand Beaches</span>
+<span class="text-xs text-slate-500">Siesta Key &amp; Casey Key</span>
+</div>
+<div class="p-4 rounded-xl bg-sky-50/70 border border-sky-100 flex flex-col items-center">
+<i class="fa-solid fa-ship text-brand-blue text-2xl mb-2"></i>
+<span class="font-bold text-slate-800 text-sm">Deepwater Boating</span>
+<span class="text-xs text-slate-500">Intracoastal &amp; Bay Access</span>
+</div>
+<div class="p-4 rounded-xl bg-sky-50/70 border border-sky-100 flex flex-col items-center">
+<i class="fa-solid fa-wand-magic-sparkles text-brand-coral text-2xl mb-2"></i>
+<span class="font-bold text-slate-800 text-sm">Disney Vacation Rentals</span>
+<span class="text-xs text-slate-500">Orlando Resort Corridors</span>
+</div>
+<div class="p-4 rounded-xl bg-sky-50/70 border border-sky-100 flex flex-col items-center">
+<i class="fa-solid fa-award text-amber-500 text-2xl mb-2"></i>
+<span class="font-bold text-slate-800 text-sm">30+ Years Expertise</span>
+<span class="text-xs text-slate-500">Tamara J. Beckel, Broker</span>
+</div>
+</div>
+</div>
+</section>
+<!-- END: NarrativeIntroduction -->
+<!-- BEGIN: MlsSearchSection -->
+<section class="relative py-20 bg-slate-900" id="mls-search">
+<!-- Luxury Interior Backdrop -->
+<img alt="Luxury Modern Siesta Key Living Room Facing Ocean Terrace" class="absolute inset-0 w-full h-full object-cover opacity-30 mix-blend-luminosity filter blur-[1px]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7Rb2ZDUzrWsVK7nU2aGOYhp86FoGaHtTVeB5JBgD1TIwcvEwZY4Qa1DncHkLJI4TKct7Db00ZPh3Ae9QUgdsVxkxrAA-8uZihEk6EfVMvFmOumtbnvz3FBGrQ_pJKBL4hX14EEsOSP98jkW2SUp77OHuIUu-RrZQFFXc-UbHBTo-O-TCTM-FUTZGysADZnI8hHupZsqsUiEejXIQWRUwn4I8HADUq8A9a2ynj60_a">
+<div class="absolute inset-0 bg-gradient-to-b from-brand-navy/90 via-slate-900/85 to-brand-navy"></div>
+<div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Section Header -->
+<div class="text-center mb-8">
+<span class="text-brand-amber font-bold uppercase tracking-widest text-xs">Direct MLS Property Gateway</span>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-white font-serif mt-1">Search MLS Homes For Sale</h2>
+<p class="text-sky-200 mt-2 text-sm sm:text-base">
+            Use the search bar below to perform a quick search, or click "Advanced MLS Search" to find exactly what you're looking for.
+          </p>
+</div>
+<!-- Brokerage Verification & Bio Card -->
+<div class="bg-white/95 rounded-2xl p-6 mb-8 shadow-xl border border-sky-200 text-slate-700 text-sm leading-relaxed">
+<div class="flex items-start gap-4">
+<div class="hidden sm:flex h-12 w-12 rounded-full bg-brand-sky text-brand-blue items-center justify-center flex-shrink-0 text-xl font-bold">
+<i class="fa-solid fa-building-columns"></i>
+</div>
+<div>
+<p class="">
+<strong>Florida Real Estate Places, LLC</strong> is a Sarasota-based real estate brokerage serving buyers and sellers across Sarasota County and the Walt Disney World vacation home corridor in Central Florida. Led by broker <strong>Tamara J. Beckel</strong>, who has more than <strong>30 years of experience</strong>, our team specializes in coastal and waterfront properties, Gulf Coast barrier island homes on Siesta Key, Longboat Key, and Casey Key, and vacation homes near Walt Disney World.
+              </p>
+</div>
+</div>
+</div>
+<!-- Filter Search Box Glassmorphism -->
+<div class="glass-card rounded-2xl p-6 sm:p-8 shadow-2xl border border-white/60">
+<form class="space-y-4" id="mlsQuickSearchForm" onsubmit="event.preventDefault(); simulateMlsSearch();">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+<!-- Property Type -->
+<div>
+<label class="block text-xs font-bold text-slate-600 uppercase mb-1" for="propertyType">Property Type</label>
+<select class="w-full text-sm border-slate-300 rounded-lg focus:ring-brand-blue focus:border-brand-blue py-2.5" id="propertyType">
+<option value="all">All Residential</option>
+<option value="waterfront">Waterfront Luxury Estate</option>
+<option value="condo">Beachfront Condo / Penthouse</option>
+<option value="single-family">Single Family Home</option>
+<option value="disney">Disney Area Vacation Villa</option>
+</select>
+</div>
+<!-- Min Price -->
+<div>
+<label class="block text-xs font-bold text-slate-600 uppercase mb-1" for="minPrice">Min Price ($)</label>
+<input class="w-full text-sm border-slate-300 rounded-lg focus:ring-brand-blue focus:border-brand-blue py-2.5" id="minPrice" placeholder="e.g. 450,000" type="text">
+</div>
+<!-- Max Price -->
+<div>
+<label class="block text-xs font-bold text-slate-600 uppercase mb-1" for="maxPrice">Max Price ($)</label>
+<input class="w-full text-sm border-slate-300 rounded-lg focus:ring-brand-blue focus:border-brand-blue py-2.5" id="maxPrice" placeholder="e.g. 3,500,000" type="text">
+</div>
+<!-- Min Beds -->
+<div>
+<label class="block text-xs font-bold text-slate-600 uppercase mb-1" for="minBeds">Min Bedrooms</label>
+<select class="w-full text-sm border-slate-300 rounded-lg focus:ring-brand-blue focus:border-brand-blue py-2.5" id="minBeds">
+<option value="any">Any Bedrooms</option>
+<option value="2">2+ Bedrooms</option>
+<option selected="" value="3">3+ Bedrooms</option>
+<option value="4">4+ Bedrooms</option>
+<option value="5">5+ Bedrooms</option>
+</select>
+</div>
+<!-- Min Baths -->
+<div>
+<label class="block text-xs font-bold text-slate-600 uppercase mb-1" for="minBaths">Min Bathrooms</label>
+<select class="w-full text-sm border-slate-300 rounded-lg focus:ring-brand-blue focus:border-brand-blue py-2.5" id="minBaths">
+<option value="any">Any Baths</option>
+<option selected="" value="2">2+ Baths</option>
+<option value="3">3+ Baths</option>
+<option value="4">4+ Baths</option>
+</select>
+</div>
+</div>
+<!-- Submit Button & Simulated Counter -->
+<div class="pt-4 flex flex-col sm:flex-row items-center justify-between gap-4 border-t border-slate-200">
+<div class="flex items-center gap-2 text-xs text-slate-600 font-medium">
+<i class="fa-solid fa-database text-brand-teal"></i>
+<span id="mlsResultCounter" class="">Over 482 active MLS listings available in Sarasota &amp; Disney Corridor</span>
+</div>
+<div class="flex items-center gap-3 w-full sm:w-auto">
+<button class="w-full sm:w-auto bg-brand-blue hover:bg-brand-navy text-white font-bold px-8 py-3 rounded-xl shadow-md transition flex items-center justify-center gap-2 text-sm" type="submit">
+<i class="fa-solid fa-magnifying-glass"></i>
+<span class="">Search Properties</span>
+</button>
+</div>
+</div>
+</form>
+</div>
+<!-- Advanced MLS Search Action Banner -->
+<div class="mt-6 text-center">
+<a class="inline-flex items-center gap-3 bg-gradient-to-r from-amber-500 to-brand-coral hover:from-brand-coral hover:to-amber-500 text-white font-extrabold uppercase tracking-wider text-sm px-8 py-3.5 rounded-full shadow-lg transform hover:scale-105 transition duration-200 border-2 border-white/40" href="#contact">
+<i class="fa-solid fa-sliders text-base"></i>
+<span class="">ADVANCED MLS SEARCH • CLICK HERE</span>
+</a>
+</div>
+</div>
+</section>
+<!-- END: MlsSearchSection -->
+<!-- BEGIN: RelocationToursSection -->
+<section class="py-20 bg-gradient-to-b from-amber-50/50 via-white to-sky-50/40" id="relocation-tours">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Section Header Badge -->
+<div class="text-center max-w-3xl mx-auto mb-12">
+<div class="inline-flex items-center gap-2 bg-amber-100 text-amber-900 px-4 py-1.5 rounded-full font-bold text-xs uppercase tracking-widest border border-amber-300 mb-4">
+<i class="fa-solid fa-compass text-brand-coral"></i>
+<span class="">Exclusive Concierge Program</span>
+</div>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-brand-navy font-serif">
+            Join Us On A Florida Coastal Lifestyle Relocation Tour
+          </h2>
+<div class="w-20 h-1 bg-amber-400 mx-auto my-4 rounded-full"></div>
+<p class="text-slate-600 text-base sm:text-lg">
+            Experience the Gulf Coast lifestyle first-hand with someone who has spent decades navigating it. Our <strong>"Florida Coastal Lifestyle Relocation Tours"</strong> are designed to give you a glimpse into Florida coastal living before you buy!
+          </p>
+</div>
+<!-- Callout Banner Card matching Reference -->
+<div class="relative bg-white rounded-3xl shadow-xl border border-sky-100 overflow-hidden">
+<div class="grid grid-cols-1 lg:grid-cols-12 items-center">
+<!-- Aerial Photo Aspect -->
+<div class="lg:col-span-6 relative h-72 lg:h-full min-h-[320px]">
+<img alt="Sarasota Luxury Waterfront Homes and Waterway Canals" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1WN2zM5cXZMpRrIdXQJ_9Zex0wK0sf3o9S6IlhHlfFEUEKZFiVlKpCvCvKQcZZyaeDvQNIFYGSAb2GS1GH-7z_yCopI7kmI8WLT-Xb6HgIzIb8wvihMj87ccYnqTsRPjuNEUMzfPRydOJySB-FQ9R9RsDEW-ImvHnOCfl6KrZZXU-Kvdj7GuUnd-jTUqpLORkjAE5mrgrlYvfYuCyOIeepVHBpdmR2KmpmwXN6EEW_0tw">
+<div class="absolute inset-0 bg-gradient-to-r from-transparent to-brand-navy/30"></div>
+<div class="absolute bottom-4 left-4 bg-brand-navy/90 text-white text-xs px-3 py-1.5 rounded-lg backdrop-blur-sm">
+<i class="fa-solid fa-location-dot text-brand-coral mr-1"></i> Sarasota, Siesta Key &amp; Bird Key Canals
+              </div>
+</div>
+<!-- Content Card -->
+<div class="lg:col-span-6 p-8 lg:p-12 space-y-6">
+<div class="border-b border-slate-200 pb-4">
+<h3 class="text-2xl sm:text-3xl font-extrabold text-brand-navy font-serif italic">
+                  Buy Where Others Vacation.
+                </h3>
+<p class="text-brand-blue font-bold text-lg mt-1">
+                  The Suncoast isn't just a destination — <span class="italic text-brand-coral">It's a decision.</span>
+</p>
+</div>
+<p class="text-slate-600 text-sm leading-relaxed">
+                Whether you want to tour Sarasota's barrier islands, explore waterfront estates, check out top private golf communities, or understand vacation rental return potential around Walt Disney World, Tamara will guide your personalized itinerary.
+              </p>
+<!-- Contact Box -->
+<div class="bg-sky-50 rounded-2xl p-5 border border-sky-200 flex flex-col sm:flex-row items-center justify-between gap-4">
+<div>
+<div class="text-xs font-bold uppercase text-slate-500 tracking-wider">Contact Us Today!</div>
+<a class="text-xl sm:text-2xl font-black text-brand-blue hover:text-brand-navy block transition" href="tel:9412334646">
+<i class="fa-solid fa-phone mr-1 text-brand-teal text-lg"></i> 941-233-4646
+                  </a>
+<a class="text-xs font-semibold text-slate-600 hover:text-brand-blue transition block" href="mailto:FREPHomes@gmail.com">
+<i class="fa-solid fa-envelope mr-1 text-slate-400"></i> FREPHomes@gmail.com
+                  </a>
+</div>
+<a class="px-6 py-3 bg-brand-coral hover:bg-orange-600 text-white font-bold text-xs uppercase tracking-wider rounded-xl shadow transition whitespace-nowrap" href="#contact">
+                  Reserve Tour Date
+                </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: RelocationToursSection -->
+<!-- BEGIN: BuyerSellerGuidesSection -->
+<section class="py-20 relative bg-brand-navy text-white overflow-hidden" id="buyer-guides">
+<!-- Background Beach Subtle Image Overlay -->
+<img alt="Siesta Key Powder Sand Beach Background" class="absolute inset-0 w-full h-full object-cover opacity-15 filter brightness-50" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1zDe51NDHS3NOxayOfiys2kpxfu7uAeGRg04yYtp4e4mTziIwfPkXNYZgevG0-ffVXIzgv7vck3lRvi9eDYiOcd8KCJS-gEuLSV64WnFXET5uN42PwxuaAzpt6LL6WRdWDg8fIWCtZ7J4-RT5zHGU7Sit3-9OQFYwsTZx-FEyqfDTUH_idwxgbT8a-3-JuaDkGIztWEKKS2vahr0HozAYQ3dNBe3UrAK-k7m4w_Jw">
+<div class="absolute inset-0 bg-gradient-to-t from-brand-navy via-brand-navy/95 to-brand-navy/90"></div>
+<div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Title Box -->
+<div class="text-center mb-10">
+<span class="text-amber-400 font-bold uppercase tracking-widest text-xs">Complimentary Florida Real Estate Resources</span>
+<h2 class="text-2xl sm:text-4xl font-extrabold mt-2 font-serif text-white leading-tight">
+            FREE 2026 Florida Home Buyer Guides <br class="hidden sm:inline">&amp; Florida Home Seller Guides
+          </h2>
+<p class="text-sky-200 text-sm sm:text-base mt-2">
+            For Sarasota County &amp; Disney World Area Corridors
+          </p>
+</div>
+<!-- Form Card Container -->
+<div class="bg-white rounded-3xl p-6 sm:p-10 shadow-2xl text-slate-800 border-4 border-sky-100">
+<form id="guideOrderForm" onsubmit="handleGuideOrder(event)">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+<!-- First Name -->
+<div>
+<label class="block text-xs font-bold uppercase text-slate-600 mb-1" for="guideFirstName">First Name *</label>
+<input class="w-full text-sm border-slate-300 rounded-lg focus:ring-brand-blue focus:border-brand-blue py-2.5" id="guideFirstName" placeholder="Enter your first name" required="" type="text">
+</div>
+<!-- Last Name -->
+<div>
+<label class="block text-xs font-bold uppercase text-slate-600 mb-1" for="guideLastName">Last Name *</label>
+<input class="w-full text-sm border-slate-300 rounded-lg focus:ring-brand-blue focus:border-brand-blue py-2.5" id="guideLastName" placeholder="Enter your last name" required="" type="text">
+</div>
+<!-- Email -->
+<div>
+<label class="block text-xs font-bold uppercase text-slate-600 mb-1" for="guideEmail">Email Address *</label>
+<input class="w-full text-sm border-slate-300 rounded-lg focus:ring-brand-blue focus:border-brand-blue py-2.5" id="guideEmail" placeholder="name@domain.com" required="" type="email">
+</div>
+<!-- Phone -->
+<div>
+<label class="block text-xs font-bold uppercase text-slate-600 mb-1" for="guidePhone">Phone Number *</label>
+<input class="w-full text-sm border-slate-300 rounded-lg focus:ring-brand-blue focus:border-brand-blue py-2.5" id="guidePhone" placeholder="(941) 000-0000" required="" type="tel">
+</div>
+</div>
+<!-- Choose Guides Header -->
+<div class="bg-sky-50 p-3 rounded-lg border border-sky-200 mb-4 text-center">
+<span class="text-xs sm:text-sm font-bold text-brand-blue uppercase tracking-wide">
+                Choose Your FREE 2026 FLORIDA HOME BUYER GUIDE or FLORIDA HOME SELLER GUIDE for Sarasota County and/or Disney World Four Corners Area:
+              </span>
+</div>
+<!-- Digital PDF Checklist -->
+<div class="space-y-3 mb-8">
+<label class="flex items-center p-3.5 rounded-xl border border-slate-200 hover:border-brand-blue hover:bg-sky-50/50 cursor-pointer transition">
+<input checked="" class="h-5 w-5 text-brand-blue rounded border-slate-300 focus:ring-brand-blue" name="guides" type="checkbox" value="Sarasota Buyer Guide">
+<div class="ml-3 flex-1 flex justify-between items-center">
+<span class="text-xs sm:text-sm font-bold text-slate-800">
+<i class="fa-solid fa-file-pdf text-rose-500 mr-2"></i>FREE Sarasota Home Buyer Guide 2026
+                  </span>
+<span class="text-xs font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">Digital PDF • $0</span>
+</div>
+</label>
+<label class="flex items-center p-3.5 rounded-xl border border-slate-200 hover:border-brand-blue hover:bg-sky-50/50 cursor-pointer transition">
+<input class="h-5 w-5 text-brand-blue rounded border-slate-300 focus:ring-brand-blue" name="guides" type="checkbox" value="Sarasota Seller Guide">
+<div class="ml-3 flex-1 flex justify-between items-center">
+<span class="text-xs sm:text-sm font-bold text-slate-800">
+<i class="fa-solid fa-file-pdf text-rose-500 mr-2"></i>FREE Sarasota Home Seller Guide 2026
+                  </span>
+<span class="text-xs font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">Digital PDF • $0</span>
+</div>
+</label>
+<label class="flex items-center p-3.5 rounded-xl border border-slate-200 hover:border-brand-blue hover:bg-sky-50/50 cursor-pointer transition">
+<input class="h-5 w-5 text-brand-blue rounded border-slate-300 focus:ring-brand-blue" name="guides" type="checkbox" value="Disney Buyer Guide">
+<div class="ml-3 flex-1 flex justify-between items-center">
+<span class="text-xs sm:text-sm font-bold text-slate-800">
+<i class="fa-solid fa-file-pdf text-rose-500 mr-2"></i>FREE Disney Vacation Home Buyer Guide 2026
+                  </span>
+<span class="text-xs font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">Digital PDF • $0</span>
+</div>
+</label>
+<label class="flex items-center p-3.5 rounded-xl border border-slate-200 hover:border-brand-blue hover:bg-sky-50/50 cursor-pointer transition">
+<input class="h-5 w-5 text-brand-blue rounded border-slate-300 focus:ring-brand-blue" name="guides" type="checkbox" value="Disney Seller Guide">
+<div class="ml-3 flex-1 flex justify-between items-center">
+<span class="text-xs sm:text-sm font-bold text-slate-800">
+<i class="fa-solid fa-file-pdf text-rose-500 mr-2"></i>FREE Disney Home Seller Guide 2026
+                  </span>
+<span class="text-xs font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">Digital PDF • $0</span>
+</div>
+</label>
+</div>
+<!-- Submit CTA -->
+<button class="w-full bg-gradient-to-r from-brand-blue via-brand-teal to-brand-blue hover:from-brand-navy hover:to-brand-blue text-white font-extrabold uppercase tracking-wider text-base py-4 rounded-xl shadow-lg transition duration-200" type="submit">
+              Order Now • Instant Free Access
+            </button>
+<p class="hidden text-center text-xs text-emerald-600 font-bold mt-3" id="guideStatusMsg">
+<i class="fa-solid fa-circle-check mr-1"></i> Success! Your guides are being processed and sent to your email.
+            </p>
+</form>
+</div>
+</div>
+</section>
+<!-- END: BuyerSellerGuidesSection -->
+<!-- BEGIN: CoastalLivingSection -->
+<section class="py-20 bg-white" id="coastal-living">
+<div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Coastal Ribbon Header -->
+<div class="text-center mb-10">
+<div class="flex items-center justify-center gap-3 text-brand-teal mb-3">
+<i class="fa-solid fa-water text-xl"></i>
+<span class="uppercase tracking-widest text-xs font-bold text-slate-500">Gulf Coast • Disney Corridor</span>
+<i class="fa-solid fa-water text-xl"></i>
+</div>
+<h2 class="text-2xl sm:text-4xl font-extrabold text-brand-navy font-serif leading-snug">
+            Coastal Living Across Sarasota County <br class="hidden sm:inline">And Beyond To The Backyard Of Disney
+          </h2>
+<div class="w-24 h-1 bg-gradient-to-r from-brand-coral via-brand-teal to-brand-blue mx-auto my-5 rounded-full"></div>
+</div>
+<div class="prose prose-lg text-slate-600 max-w-none text-justify sm:text-center leading-relaxed space-y-5">
+<p class="">
+            Whether you're exploring Sarasota homes for sale or preparing to list your own, we guide buyers and sellers throughout Sarasota County with confidence, discretion, and true local expertise. Real estate decisions are personal, financially significant, and often time-sensitive, so we tailor our approach to every client, whether the goal is a primary residence, a long-loved home going on the market, or a vacation property near Disney.
+          </p>
+<p class="">
+            From pricing strategy and market insight to negotiations, timelines, and everything in between, we keep the process clear and manageable from the first conversation to closing day. You'll never feel like just another transaction here, because you're working with a brokerage that knows this market inside and out and puts professionalism, privacy, and results first.
+          </p>
+</div>
+<!-- 3 Pillars Grid -->
+<div class="mt-14 grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="bg-brand-sand p-6 rounded-2xl border border-sky-100 shadow-sm hover:shadow-md transition">
+<div class="w-12 h-12 rounded-xl bg-sky-100 text-brand-blue flex items-center justify-center text-xl mb-4">
+<i class="fa-solid fa-shield-halved"></i>
+</div>
+<h3 class="text-lg font-bold text-brand-navy mb-2">Professionalism &amp; Privacy</h3>
+<p class="text-xs text-slate-600 leading-relaxed">
+              Discreet, fiduciary representation tailored for high-net-worth buyers, investors, and homeowners throughout Sarasota's key islands.
+            </p>
+</div>
+<div class="bg-brand-sand p-6 rounded-2xl border border-sky-100 shadow-sm hover:shadow-md transition">
+<div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center text-xl mb-4">
+<i class="fa-solid fa-chart-line"></i>
+</div>
+<h3 class="text-lg font-bold text-brand-navy mb-2">Targeted Market Pricing</h3>
+<p class="text-xs text-slate-600 leading-relaxed">
+              Strategic, hyper-local valuation ensuring sellers command top dollar and buyers negotiate with factual confidence.
+            </p>
+</div>
+<div class="bg-brand-sand p-6 rounded-2xl border border-sky-100 shadow-sm hover:shadow-md transition">
+<div class="w-12 h-12 rounded-xl bg-teal-100 text-brand-teal flex items-center justify-center text-xl mb-4">
+<i class="fa-solid fa-handshake"></i>
+</div>
+<h3 class="text-lg font-bold text-brand-navy mb-2">End-to-End Concierge</h3>
+<p class="text-xs text-slate-600 leading-relaxed">
+              From contract writing, home inspections, and dock permits to title transfer and property management introductions.
+            </p>
+</div>
+</div>
+</div>
+</section>
+<!-- END: CoastalLivingSection -->
+<!-- BEGIN: CallUsDirectBanner -->
+<div class="bg-brand-blue text-white py-4 px-4 text-center font-bold text-sm sm:text-base border-y border-sky-400/40">
+<div class="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4">
+<span class="">Ready to find your place in paradise?</span>
+<a class="inline-flex items-center gap-2 bg-white text-brand-blue px-4 py-1.5 rounded-full font-extrabold hover:bg-amber-300 hover:text-brand-navy transition" href="tel:9412334646">
+<i class="fa-solid fa-phone"></i>
+<span class="">Let's talk 1-941-233-4646</span>
+</a>
+</div>
+</div>
+<!-- END: CallUsDirectBanner -->
+<!-- BEGIN: ContactAndInquirySection -->
+<section class="py-20 bg-brand-sand relative" id="contact">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<!-- Left Column: Lifestyle Narrative Card -->
+<div class="lg:col-span-5 bg-white rounded-3xl p-8 shadow-xl border border-sky-100">
+<div class="relative rounded-2xl overflow-hidden mb-6 shadow">
+<img alt="Florida Coastal Living Luxury" class="w-full h-48 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7Rb2ZDUzrWsVK7nU2aGOYhp86FoGaHtTVeB5JBgD1TIwcvEwZY4Qa1DncHkLJI4TKct7Db00ZPh3Ae9QUgdsVxkxrAA-8uZihEk6EfVMvFmOumtbnvz3FBGrQ_pJKBL4hX14EEsOSP98jkW2SUp77OHuIUu-RrZQFFXc-UbHBTo-O-TCTM-FUTZGysADZnI8hHupZsqsUiEejXIQWRUwn4I8HADUq8A9a2ynj60_a">
+<div class="absolute inset-0 bg-gradient-to-t from-brand-navy/70 to-transparent flex items-end p-4">
+<span class="text-white font-bold text-xs uppercase tracking-widest">
+<i class="fa-solid fa-sun text-amber-300 mr-1.5"></i>Florida Real Estate Places
+                </span>
+</div>
+</div>
+<h3 class="text-2xl font-extrabold text-brand-navy font-serif mb-4">
+              At Florida Real Estate Places, we redefine coastal living through concierge-level real estate services.
+            </h3>
+<p class="text-sm text-slate-600 leading-relaxed mb-4">
+              We curate exceptional experiences and lasting connections across the Siesta Key and Disney-area markets — helping you embrace the Florida lifestyle you've always imagined.
+            </p>
+<p class="text-sm text-slate-600 leading-relaxed border-l-4 border-brand-teal pl-3 italic font-medium">
+              "Buying or selling a home is more than a transaction — it's a lifestyle decision. That's why we deliver a seamless, white-glove experience tailored to you. From early conversations to closing and beyond, our team anticipates your needs, handles every detail, and makes the journey effortless."
+            </p>
+<div class="mt-6 pt-6 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+<span class="">Tamara J. Beckel, Broker</span>
+<a class="font-bold text-brand-blue hover:underline" href="tel:9412334646">Direct: 941-233-4646</a>
+</div>
+</div>
+<!-- Right Column: Request For Information Form -->
+<div class="lg:col-span-7 bg-white rounded-3xl p-8 sm:p-10 shadow-xl border border-sky-100">
+<div class="mb-6">
+<h3 class="text-2xl sm:text-3xl font-extrabold text-brand-navy font-serif">Request For Information</h3>
+<p class="text-sm text-slate-600 mt-1">
+                Fill in the form below to let us know which service you're interested in and how we can help - we'll get back to you as quickly as possible.
+              </p>
+</div>
+<form class="space-y-4" id="contactRequestForm" onsubmit="handleInquirySubmit(event)">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div>
+<label class="block text-xs font-bold uppercase text-slate-600 mb-1" for="contactFirstName">First Name *</label>
+<input class="w-full text-sm border-slate-300 rounded-lg focus:ring-brand-blue focus:border-brand-blue py-2.5" id="contactFirstName" required="" type="text">
+</div>
+<div>
+<label class="block text-xs font-bold uppercase text-slate-600 mb-1" for="contactLastName">Last Name *</label>
+<input class="w-full text-sm border-slate-300 rounded-lg focus:ring-brand-blue focus:border-brand-blue py-2.5" id="contactLastName" required="" type="text">
+</div>
+</div>
+<div>
+<label class="block text-xs font-bold uppercase text-slate-600 mb-1" for="contactEmail">Email *</label>
+<input class="w-full text-sm border-slate-300 rounded-lg focus:ring-brand-blue focus:border-brand-blue py-2.5" id="contactEmail" required="" type="email">
+</div>
+<div>
+<label class="block text-xs font-bold uppercase text-slate-600 mb-1" for="contactPhone">Phone Number *</label>
+<input class="w-full text-sm border-slate-300 rounded-lg focus:ring-brand-blue focus:border-brand-blue py-2.5" id="contactPhone" placeholder="(941) 233-4646" required="" type="tel">
+</div>
+<div>
+<label class="block text-xs font-bold uppercase text-slate-600 mb-1" for="contactService">Which service are you interested in? *</label>
+<select class="w-full text-sm border-slate-300 rounded-lg focus:ring-brand-blue focus:border-brand-blue py-2.5" id="contactService" required="">
+<option value="">Select a service...</option>
+<option value="buy-sarasota">Buying a Home in Sarasota / Siesta Key</option>
+<option value="buy-disney">Buying a Vacation Home near Walt Disney World</option>
+<option value="sell-property">Selling my Florida Property (Free Valuation)</option>
+<option value="relocation-tour">Florida Coastal Lifestyle Relocation Tour</option>
+<option value="general">General Inquiries / Broker Consultation</option>
+</select>
+</div>
+<div>
+<label class="block text-xs font-bold uppercase text-slate-600 mb-1" for="contactMessage">Add a message or tell us more about what you need *</label>
+<textarea class="w-full text-sm border-slate-300 rounded-lg focus:ring-brand-blue focus:border-brand-blue" id="contactMessage" placeholder="Tell us about your timeline, ideal property specifications, or questions..." required="" rows="4"></textarea>
+</div>
+<button class="w-full bg-gradient-to-r from-brand-teal to-brand-blue hover:from-brand-blue hover:to-brand-navy text-white font-extrabold uppercase tracking-wider text-sm py-4 rounded-xl shadow-lg transition" type="submit">
+                Send Request
+              </button>
+<p class="hidden text-center text-xs text-emerald-600 font-bold mt-2" id="inquiryStatusMsg">
+<i class="fa-solid fa-check-double mr-1"></i> Thank you! Your request has been transmitted directly to Tamara Beckel.
+              </p>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- END: ContactAndInquirySection -->
+<!-- BEGIN: GuidanceAndReasonsSection -->
+<section class="py-20 bg-white border-t border-slate-200" id="relocate-sarasota">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-14">
+<!-- Card 1 -->
+<div class="p-8 rounded-3xl bg-brand-sand border border-sky-100 flex flex-col justify-between">
+<div>
+<div class="text-brand-coral text-2xl mb-4 font-bold">01</div>
+<h3 class="text-xl font-bold text-brand-navy font-serif mb-3">Guidance Built Around Your Goals</h3>
+<p class="text-sm text-slate-600 leading-relaxed">
+                Buying or selling a home along Florida's Gulf Coast is more than a transaction. It's a step toward the lifestyle you've envisioned, whether that's sunset walks on Siesta Key, a downtown condo near the bayfront, or a vacation escape close to Disney. Whether you're searching for the right home in Sarasota County, preparing to sell a property you've loved for years, exploring vacation homes near Disney, or navigating a unique or sensitive situation, we combine in-depth local market knowledge with clear, steady communication from start to finish.
+              </p>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="p-8 rounded-3xl bg-brand-sand border border-sky-100 flex flex-col justify-between">
+<div>
+<div class="text-brand-teal text-2xl mb-4 font-bold">02</div>
+<h3 class="text-xl font-bold text-brand-navy font-serif mb-3">Why Clients Choose Florida Real Estate Places</h3>
+<p class="text-sm text-slate-600 leading-relaxed">
+                Every client, every property, and every coastal corner of Sarasota County has its own character, so we build a strategy around your circumstances instead of a generic checklist. With more than 30 years of Florida real estate experience and deep Sarasota County market insight, we keep buyers and sellers informed and prepared from the first conversation through closing day.
+              </p>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="p-8 rounded-3xl bg-brand-sand border border-sky-100 flex flex-col justify-between">
+<div>
+<div class="text-brand-blue text-2xl mb-4 font-bold">03</div>
+<h3 class="text-xl font-bold text-brand-navy font-serif mb-3">Your Florida Lifestyle Starts Here</h3>
+<p class="text-sm text-slate-600 leading-relaxed">
+                Whether you're dreaming of mornings on the Gulf, a downtown Sarasota address, or a vacation home minutes from Disney, we'd love to help you take the next step. Reach out today and let's start a conversation about the life you're ready to live.
+              </p>
+</div>
+</div>
+</div>
+<!-- Dual CTA Mini Cards -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
+<a class="group p-6 rounded-2xl bg-gradient-to-br from-sky-50 to-white border-2 border-brand-sky hover:border-brand-blue transition shadow-sm hover:shadow-md flex items-center gap-4" href="#mls-search">
+<div class="w-14 h-14 rounded-2xl bg-brand-blue text-white flex items-center justify-center text-2xl group-hover:scale-110 transition flex-shrink-0">
+<i class="fa-solid fa-compass"></i>
+</div>
+<div>
+<h4 class="font-extrabold text-brand-navy text-lg group-hover:text-brand-blue transition">Browse Coastal Homes</h4>
+<p class="text-xs text-slate-500">Explore Siesta Key, Bird Key &amp; Sarasota waterfront</p>
+</div>
+</a>
+<a class="group p-6 rounded-2xl bg-gradient-to-br from-amber-50 to-white border-2 border-amber-200 hover:border-amber-500 transition shadow-sm hover:shadow-md flex items-center gap-4" href="#contact">
+<div class="w-14 h-14 rounded-2xl bg-brand-coral text-white flex items-center justify-center text-2xl group-hover:scale-110 transition flex-shrink-0">
+<i class="fa-solid fa-comments"></i>
+</div>
+<div>
+<h4 class="font-extrabold text-brand-navy text-lg group-hover:text-brand-coral transition">Contact Real Estate Places Today!</h4>
+<p class="text-xs text-slate-500">Talk with Broker Tamara J. Beckel directly</p>
+</div>
+</a>
+</div>
+</div>
+</section>
+<!-- END: GuidanceAndReasonsSection -->
+<!-- BEGIN: ServingSarasotaAndDisneySection -->
+<section class="py-20 bg-slate-900 text-white relative overflow-hidden">
+<!-- Waterway Drone Background -->
+<img alt="Sarasota Luxury Waterway Canals and Estates Aerial" class="absolute inset-0 w-full h-full object-cover opacity-20 filter brightness-75" src="https://lh3.googleusercontent.com/aida/AEtjO1WN2zM5cXZMpRrIdXQJ_9Zex0wK0sf3o9S6IlhHlfFEUEKZFiVlKpCvCvKQcZZyaeDvQNIFYGSAb2GS1GH-7z_yCopI7kmI8WLT-Xb6HgIzIb8wvihMj87ccYnqTsRPjuNEUMzfPRydOJySB-FQ9R9RsDEW-ImvHnOCfl6KrZZXU-Kvdj7GuUnd-jTUqpLORkjAE5mrgrlYvfYuCyOIeepVHBpdmR2KmpmwXN6EEW_0tw">
+<div class="absolute inset-0 bg-gradient-to-b from-brand-navy/95 via-slate-900/90 to-brand-navy"></div>
+<div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-3xl mx-auto mb-14">
+<span class="text-brand-amber font-bold uppercase tracking-widest text-xs">Unmatched Regional Coverage</span>
+<h2 class="text-3xl sm:text-5xl font-extrabold font-serif mt-2 tracking-tight">
+            SERVING <br><span class="text-brand-sky">SARASOTA COUNTY</span> <br><span class="text-brand-coral text-2xl sm:text-3xl">&amp; THE DISNEY VACATION HOME MARKET</span>
+</h2>
+<div class="w-20 h-1 bg-brand-coral mx-auto my-4 rounded-full"></div>
+<p class="text-sky-200 text-sm sm:text-base">
+            We are proud to be an independently owned and operated real estate company serving our friends and neighbors throughout Sarasota County, as well as the many snowbirds and vacationers drawn to the natural beauty of Siesta Key. Our reach also extends to the Disney area and the short-term rental vacation home market.
+          </p>
+</div>
+<!-- 4 Feature Pillars -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+<!-- Pillar 1 -->
+<div class="glass-dark rounded-2xl p-6 border border-white/10 text-center hover:border-brand-teal transition">
+<div class="w-14 h-14 rounded-full bg-brand-teal/20 text-brand-teal flex items-center justify-center mx-auto mb-4 text-2xl border border-brand-teal/40">
+<i class="fa-solid fa-umbrella-beach"></i>
+</div>
+<h3 class="font-extrabold text-white text-base mb-2 uppercase">Coastal Living Expertise</h3>
+<p class="text-xs text-sky-100 leading-relaxed">
+              Live the Florida dream with insider knowledge of our beaches, boating, and island lifestyle.
+            </p>
+</div>
+<!-- Pillar 2 -->
+<div class="glass-dark rounded-2xl p-6 border border-white/10 text-center hover:border-brand-blue transition">
+<div class="w-14 h-14 rounded-full bg-brand-blue/20 text-brand-sky flex items-center justify-center mx-auto mb-4 text-2xl border border-brand-blue/40">
+<i class="fa-solid fa-bell-concierge"></i>
+</div>
+<h3 class="font-extrabold text-white text-base mb-2 uppercase">Concierge-Level Service</h3>
+<p class="text-xs text-sky-100 leading-relaxed">
+              More than real estate. We curate experiences and take care of the details so you can relax.
+            </p>
+</div>
+<!-- Pillar 3 -->
+<div class="glass-dark rounded-2xl p-6 border border-white/10 text-center hover:border-amber-400 transition">
+<div class="w-14 h-14 rounded-full bg-amber-500/20 text-amber-300 flex items-center justify-center mx-auto mb-4 text-2xl border border-amber-400/40">
+<i class="fa-solid fa-sun"></i>
+</div>
+<h3 class="font-extrabold text-white text-base mb-2 uppercase">Florida Lifestyle Focused</h3>
+<p class="text-xs text-sky-100 leading-relaxed">
+              From sunrise to sunset, we help you embrace the very best of coastal living and community.
+            </p>
+</div>
+<!-- Pillar 4 -->
+<div class="glass-dark rounded-2xl p-6 border border-white/10 text-center hover:border-brand-coral transition">
+<div class="w-14 h-14 rounded-full bg-brand-coral/20 text-amber-200 flex items-center justify-center mx-auto mb-4 text-2xl border border-brand-coral/40">
+<i class="fa-solid fa-castle text-2xl"></i>
+</div>
+<h3 class="font-extrabold text-white text-base mb-2 uppercase">Disney &amp; Vacation Homes</h3>
+<p class="text-xs text-sky-100 leading-relaxed">
+              Navigate the vacation rental market with ease and confidence — we handle it all.
+            </p>
+</div>
+</div>
+<!-- Banner Footer Tagline -->
+<div class="glass-card rounded-2xl p-6 text-center text-slate-800 border border-white/50">
+<p class="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-brand-navy">
+            LOCAL EXPERTISE. UNMATCHED LIFESTYLE. <span class="text-brand-coral italic font-serif">Extraordinary Experiences.</span>
+</p>
+<p class="text-xs text-slate-600 mt-1">
+            From the shores of Siesta Key to the magic of Disney, we deliver more than real estate — we deliver the Florida lifestyle you deserve. Consider it handled.
+          </p>
+</div>
+</div>
+</section>
+<!-- END: ServingSarasotaAndDisneySection -->
+</main>
+<!-- BEGIN: MainFooter -->
+<footer class="bg-brand-sand border-t border-slate-300 pt-16 pb-12 text-slate-700">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Back To Top Button -->
+<div class="text-center mb-10">
+<button class="inline-flex items-center gap-2 bg-brand-blue hover:bg-brand-navy text-white text-xs font-bold uppercase tracking-wider px-6 py-2.5 rounded-full shadow transition transform hover:-translate-y-0.5" onclick="scrollToTop()">
+<i class="fa-solid fa-arrow-up"></i>
+<span class="">Back To Top</span>
+</button>
+</div>
+<!-- Quick Nav Links Bar -->
+<nav class="flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-xs sm:text-sm font-semibold text-slate-600 pb-8 border-b border-slate-200">
+<a class="hover:text-brand-blue transition" href="#hero">Home</a>
+<span class="">•</span>
+<a class="hover:text-brand-blue transition" href="#relocation-tours">Relocation Tours</a>
+<span class="">•</span>
+<a class="hover:text-brand-blue transition" href="#coastal-living">Coastal Living</a>
+<span class="">•</span>
+<a class="hover:text-brand-blue transition" href="#relocate-sarasota">Relocate To Sarasota</a>
+<span class="">•</span>
+<a class="hover:text-brand-blue transition" href="#mls-search">MLS Listings</a>
+<span class="">•</span>
+<a class="hover:text-brand-blue transition" href="#contact">Sell My Home</a>
+<span class="">•</span>
+<a class="hover:text-brand-blue transition" href="#buyer-guides">Buy A Home</a>
+</nav>
+<!-- Main Footer Grid -->
+<div class="py-12 grid grid-cols-1 md:grid-cols-3 gap-8 items-center text-center md:text-left">
+<!-- Left: Address & Email -->
+<div class="space-y-2 text-xs sm:text-sm">
+<p class="font-bold text-brand-navy text-base">Florida Real Estate Places, LLC</p>
+<p class="text-slate-600">
+<i class="fa-solid fa-location-dot text-brand-coral mr-1.5"></i> 2709 Safe Harbor Drive<br>
+            Sarasota, FL 34231
+          </p>
+<p class="pt-2">
+<a class="text-brand-blue hover:underline font-semibold flex items-center justify-center md:justify-start gap-1.5" href="mailto:FREPHomes@gmail.com">
+<i class="fa-solid fa-envelope text-slate-400"></i> FREPHomes@gmail.com
+            </a>
+</p>
+</div>
+<!-- Center: Official Logo Emblem -->
+<div class="flex flex-col items-center justify-center">
+<img alt="Florida Real Estate Places Official Crest Logo" class="h-24 w-auto object-contain mb-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKJdsZnjJz1UyqEt6nk0kf9K0dR8AZap5z4Z0Hr0xrO67S5W0Dj6QpHbdPOHkW_wjrOnYgn-dF5dRCDDlob_hQlqcItEKQaJULu7dlSfkVcI8DEf7pKltiTZCKKI4GYNHuBI7Q4SzgCslCRDYRBCxmZ6QRQUWAf-hekSsahykj_s5fGwDNMduYFNHlr_K7j1LKXix8UX22_MLMnr5lpc-DryPvfve9DiuIVm7VPsxD">
+<span class="text-xs text-slate-500 font-medium tracking-wide">
+            Tamara J. Beckel • Licensed Real Estate Broker
+          </span>
+</div>
+<!-- Right: Broker Phone & Callback -->
+<div class="space-y-2 text-center md:text-right">
+<div class="text-xs uppercase font-bold text-slate-500 tracking-wider">Direct Broker Line:</div>
+<a class="text-2xl font-black text-brand-blue hover:text-brand-coral transition block" href="tel:9412334646">
+            941-233-4646
+          </a>
+<p class="text-xs text-slate-500 italic">
+            "Leave a voicemail for an immediate callback!"
+          </p>
+<!-- Social Icons -->
+<div class="pt-3 flex justify-center md:justify-end space-x-3 text-slate-600 text-lg">
+<a class="w-8 h-8 rounded-full bg-white shadow-sm flex items-center justify-center hover:text-brand-blue hover:scale-110 transition" href="#hero"><i class="fa-brands fa-facebook-f text-xs"></i></a>
+<a class="w-8 h-8 rounded-full bg-white shadow-sm flex items-center justify-center hover:text-rose-500 hover:scale-110 transition" href="#hero"><i class="fa-brands fa-instagram text-xs"></i></a>
+<a class="w-8 h-8 rounded-full bg-white shadow-sm flex items-center justify-center hover:text-brand-blue hover:scale-110 transition" href="#hero"><i class="fa-brands fa-linkedin-in text-xs"></i></a>
+<a class="w-8 h-8 rounded-full bg-white shadow-sm flex items-center justify-center hover:text-black hover:scale-110 transition" href="#hero"><i class="fa-brands fa-tiktok text-xs"></i></a>
+<a class="w-8 h-8 rounded-full bg-white shadow-sm flex items-center justify-center hover:text-black hover:scale-110 transition" href="#hero"><i class="fa-brands fa-x-twitter text-xs"></i></a>
+</div>
+</div>
+</div>
+<!-- Legal Compliance Badges & Copyright -->
+<div class="pt-8 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+<div class="flex items-center space-x-4">
+<span class="flex items-center gap-1 font-bold text-slate-700">
+<i class="fa-solid fa-house-chimney text-brand-blue"></i> Equal Housing Opportunity
+          </span>
+<span class="">•</span>
+<span class="font-bold text-slate-700">REALTOR®</span>
+<span class="">•</span>
+<span class="">Stellar MLS Participant</span>
+</div>
+<div class="">
+          © 2026 Florida Real Estate Places, LLC. All Rights Reserved.
+        </div>
+</div>
+</div>
+</footer>
+<!-- END: MainFooter -->
+<!-- Floating Let's Chat Widget -->
+<aside aria-label="Live assistance" class="fixed bottom-6 right-6 z-40">
+<a class="flex items-center gap-2.5 bg-gradient-to-r from-brand-blue to-brand-teal hover:from-brand-navy hover:to-brand-blue text-white px-5 py-3 rounded-full shadow-2xl transition transform hover:scale-105 border-2 border-white/80 group" href="#contact">
+<span class="relative flex h-3 w-3">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-300 opacity-75"></span>
+<span class="relative inline-flex rounded-full h-3 w-3 bg-amber-400"></span>
+</span>
+<i class="fa-solid fa-comments text-lg"></i>
+<span class="font-bold text-sm tracking-wide">Let's Chat!</span>
+</a>
+</aside>
+<!-- BEGIN: InteractiveScripts -->
+<script data-purpose="page-interactivity">
+    // Mobile navigation toggle
+    const mobileBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    
+    if (mobileBtn && mobileMenu) {
+      mobileBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+
+      // Close menu on click of mobile links
+      mobileMenu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          mobileMenu.classList.add('hidden');
+        });
+      });
+    }
+
+    // Smooth scroll to top function
+    function scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }
+
+    // Simulate MLS Quick Search feedback
+    function simulateMlsSearch() {
+      const type = document.getElementById('propertyType').value;
+      const counterEl = document.getElementById('mlsResultCounter');
+      counterEl.innerHTML = `<span class="text-brand-blue font-bold animate-pulse"><i class="fa-solid fa-spinner fa-spin mr-1"></i> Filtering live MLS listings for "${type}"... Found 64 matching properties!</span>`;
+      setTimeout(() => {
+        counterEl.innerHTML = `<i class="fa-solid fa-check-circle text-emerald-600 mr-1"></i> Displaying 64 available verified listings. <a href="#contact" class="text-brand-coral underline font-bold ml-1">Receive full MLS sheet with photos</a>`;
+      }, 700);
+    }
+
+    // Handle Free Buyer/Seller Guide Submission
+    function handleGuideOrder(e) {
+      e.preventDefault();
+      const statusMsg = document.getElementById('guideStatusMsg');
+      const submitBtn = e.target.querySelector('button[type="submit"]');
+      submitBtn.disabled = true;
+      submitBtn.innerText = "Generating Instant PDF Access...";
+
+      setTimeout(() => {
+        statusMsg.classList.remove('hidden');
+        submitBtn.innerText = "Order Complete!";
+        e.target.reset();
+      }, 900);
+    }
+
+    // Handle Contact & Inquiry Form Submission
+    function handleInquirySubmit(e) {
+      e.preventDefault();
+      const statusMsg = document.getElementById('inquiryStatusMsg');
+      const submitBtn = e.target.querySelector('button[type="submit"]');
+      submitBtn.disabled = true;
+      submitBtn.innerText = "Transmitting to Broker...";
+
+      setTimeout(() => {
+        statusMsg.classList.remove('hidden');
+        submitBtn.innerText = "Request Sent Successfully";
+        e.target.reset();
+      }, 900);
+    }
+  </script>
+<!-- END: InteractiveScripts -->
+
+
+
+
+</body></html>
